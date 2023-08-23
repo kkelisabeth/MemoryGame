@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="kazuha.jpeg" />
+    <None Remove="kequing.jpeg" />
+    <None Remove="lisa.jpeg" />
+    <None Remove="mucha.jpeg" />
+    <None Remove="raiden.jpeg" />
+    <None Remove="venti.jpeg" />
+    <None Remove="xiao.jpeg" />
+    <None Remove="yaemiko.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="kazuha.jpeg" />
+    <Resource Include="kequing.jpeg" />
+    <Resource Include="lisa.jpeg" />
+    <Resource Include="mucha.jpeg" />
+    <Resource Include="raiden.jpeg" />
+    <Resource Include="venti.jpeg" />
+    <Resource Include="xiao.jpeg" />
+    <Resource Include="yaemiko.jpeg" />
+  </ItemGroup>
+
+</Project>
